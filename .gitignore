@@ -31,3 +31,6 @@ prompts/*
 .note
 scripts/backup.sh
 
+# Articles directory
+articles/
+
