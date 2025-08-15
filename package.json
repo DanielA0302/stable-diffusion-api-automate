@@ -1,0 +1,24 @@
+{
+  "name": "stable-diffusion-api-automate",
+  "version": "1.0.0",
+  "description": "Stable Diffusion API automation tool",
+  "main": "src/main.ts",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx src/main.ts",
+    "dev": "npx tsx src/main.ts",
+    "build": "tsc",
+    "help": "npx tsx src/main.ts --help"
+  },
+  "dependencies": {
+    "chalk": "^5.5.0",
+    "commander": "^14.0.0",
+    "dotenv": "^17.2.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "tsx": "^4.20.4",
+    "typescript": "^5.9.2"
+  }
+}

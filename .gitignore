@@ -1,0 +1,33 @@
+# Environment variables
+.env
+
+# Dependencies
+node_modules/
+
+# Output directories
+out/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# exlucde all udner prompts/ but configs.jsonl
+prompts/*
+!prompts/configs.jsonl
+
+.note
+scripts/backup.sh
+
